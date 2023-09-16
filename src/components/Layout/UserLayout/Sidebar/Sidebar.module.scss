@@ -1,0 +1,26 @@
+.category {
+    background-color: var(--white-color);
+}
+
+.category-icon {
+    margin-right: 5px;
+    font-size: 1.4rem;
+}
+
+.category-list {
+    margin-top: 5px;
+}
+
+.category-link {
+    font-size: 1.4rem;
+    padding: 12px 16px;
+    display: block;
+    color: var(--text-color);
+    position: relative;
+    right: 0;
+    transition: right linear 0.2s;
+    &:hover {
+        color: var(--primary-color);
+        right: -4px;
+    }
+}

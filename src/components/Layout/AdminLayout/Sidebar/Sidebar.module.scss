@@ -1,0 +1,34 @@
+.category {
+    background-color: var(--white-color);
+    height: 900px;
+}
+
+.category-icon {
+    margin-right: 5px;
+    width: 16px;
+}
+
+.category-list {
+    margin-top: 5px;
+}
+
+.category-link {
+    font-size: 1.4rem;
+    display: inline-block;
+    color: var(--text-color);
+    position: relative;
+    right: 0;
+    transition: right linear 0.2s;
+    &:hover {
+        color: var(--white-color);
+        right: -4px;
+        background-color: var(--primary-color);
+    }
+    align-items: center;
+}
+
+.category-item {
+    padding: 16px 0;
+}
+
+

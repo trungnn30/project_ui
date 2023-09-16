@@ -1,0 +1,75 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.logo {
+    width: 20%;
+}
+
+.img-logo {
+    width: 200px;
+    height: 200px;
+}
+
+.form-signup {
+    background-color: var(--white-color);
+    height: 482px;
+    width: 700px;
+    border-radius: 4px;
+}
+
+.inner {
+    padding: 0 22px 30px;
+}
+
+.sub-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-inner {
+    width: 300px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 12px;
+    margin-bottom: 30px;
+
+    input {
+        flex: 1;
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+}
+
+.under {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #05a;
+}
+
+.btn-regis {
+    text-align: center;
+}
+
+.title {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+}

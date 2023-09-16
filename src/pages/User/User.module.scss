@@ -1,0 +1,63 @@
+.filter {
+    padding: 12px 24px;
+    background-color: rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.filter-page {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.filter-label {
+    font-size: 1.6rem;
+    margin-right: 14px;
+}
+
+.filter-num {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin-right: 22px;
+}
+
+.filter-icon {
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+
+.price,
+.price-list {
+    width: 200px;
+}
+
+.price {
+    height: 34px;
+    padding: 0 12px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+// Pagination
+.pagination {
+    margin: 48px 0 32px 0;
+}
+
+.pagination-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-item {
+    margin: 0 16px;
+}
+
+.pagination-icon {
+    font-size: 2rem;
+}

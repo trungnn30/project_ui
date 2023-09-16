@@ -1,0 +1,24 @@
+.spec,
+.spec td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.spec {
+    width: calc(100% - 16px - 16px);
+    margin: 0 16px;
+    border-collapse: collapse;
+}
+
+.spec td {
+    padding: 16px;
+}
+
+.spec tr {
+    td {
+        &:nth-child(1) {
+            background-color: #f7f7f7;
+            color: var(--black-color);
+            font-weight: bold;
+        }
+    }
+}

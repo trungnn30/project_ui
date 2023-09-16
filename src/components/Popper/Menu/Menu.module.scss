@@ -1,0 +1,48 @@
+@keyframes anim {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.wrapper {
+    width: 404px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    transform-origin: calc(100% - 20px) top;
+    animation: anim linear 0.2s;
+    position: relative;
+    top: 10px;
+
+    &::before {
+        content: '';
+        display: block;
+        right: 0;
+        top: -22px;
+        position: absolute;
+        height: 25px;
+        width: 100px;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -20px;
+        right: 16px;
+        border-width: 10px 20px;
+        border-style: solid;
+        border-color: transparent transparent var(--white-color) transparent;
+    }
+}
+
+.cart {
+    position: relative;
+    left: 26px;
+}

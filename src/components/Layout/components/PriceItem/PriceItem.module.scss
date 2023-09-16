@@ -1,0 +1,9 @@
+.item-link {
+    display: block;
+    padding: 12px;
+    color: var(--text-color);
+
+    &:hover {
+        color: var(--primary-color);
+    }
+}

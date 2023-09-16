@@ -1,0 +1,155 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+}
+
+:root {
+    --primary-color: #ee4b2b;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --star-color: #ffce3e;
+
+    --header-height: 120px;
+    --navbar-height: 42px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+}
+
+// Grid
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-full-width {
+    width: 100%;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+//Max
+.max {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.max-full-width {
+    width: 100%;
+}
+
+.max-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+/* Test */
+.grid-column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+
+.grid-column-2-4 {
+    /* Tỉ lệ 12/5 */
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+
+.grid-column-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc(100% / 3);
+}
+
+.grid-column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3333%;
+}
+
+.grid-column-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+
+// Container
+.container {
+    background-color: #f5f5f5;
+    min-height: 600px;
+}
+
+.main-container {
+    padding: 36px 0;
+}
+
+//Ads
+/* LEFT SIDE */
+.FloatAdx-left {
+    right: 50%; /* Change this to switch left or right */
+    margin-right: 700px; /* Adjust this value with your Blog width */
+    top: 156px;
+    position: fixed;
+    height: 605px;
+    width: 160px;
+}
+
+@media only screen and (max-width: 1350px) {
+    #FloatAdx-left {
+        display: none;
+    }
+}
+
+/* LEFT SIDE */
+.FloatAdx-right {
+    left: 50%; /* Change this to switch left or right */
+    margin-left: 630px; /* Adjust this value with your Blog width */
+    top: 156px;
+    position: fixed;
+    height: 605px;
+    width: 160px;
+}
+
+@media only screen and (max-width: 1350px) {
+    #FloatAdx-right {
+        display: none;
+    }
+}
+

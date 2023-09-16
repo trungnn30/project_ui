@@ -1,0 +1,43 @@
+.wrapper {
+    background-color: var(--white-color);
+    border-radius: 5px;
+}
+
+.detail-img {
+    width: 100%;
+}
+
+.detail-general {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.8rem;
+}
+
+.detail-list {
+    padding: 0 42px;
+    margin-bottom: 10px;
+}
+
+.detail-item {
+    list-style-type: disc;
+    padding: 8px 0;
+    color: var(--text-color);
+}
+
+.detail-cart {
+    padding: 16px;
+    font-size: 1.8rem;
+
+    span {
+        &:nth-child(2) {
+            color: var(--primary-color);
+            font-size: 2.2rem;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+    }
+}
+
+.detail-price {
+    padding: 16px 0;
+    margin-bottom: 16px;
+}
